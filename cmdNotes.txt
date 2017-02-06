@@ -1,0 +1,23 @@
+https://www.digicert.com/easy-csr/openssl.htm
+https://www.digitalocean.com/community/tutorials/java-keytool-essentials-working-with-java-keystores
+https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs/
+
+--commands
+$openssl req -new -newkey rsa:2048 -nodes -out star_ssltest1_com.csr -keyout star_ssltest1_com.key -subj "/C=HK/ST=999077/L=MK/O=ssltest/OU=test1/CN=*.ssltest1.com"
+
+$openssl req -new -newkey rsa:2048 -nodes -out star_ssltest2_com.csr -keyout star_ssltest2_com.key -subj "/C=HK/ST=999077/L=MK/O=ssltest/OU=test2/CN=*.ssltest2.com"
+
+
+$openssl x509 \
+       -signkey star_ssltest1_com.key \
+       -in star_ssltest1_com.csr \
+       -req -days 365 -out star_ssltest1_com.crt
+$openssl x509 -text -noout -in star_ssltest1_com.crt
+
+
+
+$openssl x509 \
+       -signkey star_ssltest2_com.key \
+       -in star_ssltest2_com.csr \
+       -req -days 365 -out star_ssltest2_com.crt
+$openssl x509 -text -noout -in star_ssltest2_com.crt

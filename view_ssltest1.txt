@@ -1,0 +1,50 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number:
+            98:6f:32:da:ba:16:f8:97
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=HK, ST=999077, L=MK, O=ssltest, OU=test1, CN=*.ssltest1.com
+        Validity
+            Not Before: Feb  6 14:25:45 2017 GMT
+            Not After : Feb  6 14:25:45 2018 GMT
+        Subject: C=HK, ST=999077, L=MK, O=ssltest, OU=test1, CN=*.ssltest1.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:c4:8d:38:03:cf:3f:0b:8e:32:4c:bb:5f:17:2d:
+                    b3:de:8d:8a:f4:79:23:4a:77:9f:e1:dc:78:1f:20:
+                    dd:e6:b9:8e:ac:f6:a1:9e:fc:d0:d3:35:e4:ff:41:
+                    57:f2:33:73:fd:ec:7f:13:38:78:78:7e:76:59:13:
+                    25:4a:03:2b:e1:27:83:c1:57:66:77:20:fb:52:0d:
+                    89:68:5e:ac:c7:d9:48:1d:31:6f:78:30:01:09:ed:
+                    ae:c8:ba:14:5a:39:a4:9e:fc:29:b3:03:94:a6:1c:
+                    e1:73:3f:9c:4d:b4:2f:c5:b9:87:fa:05:8e:b6:d4:
+                    d1:1d:88:95:66:aa:c2:5e:de:cb:64:3a:aa:89:37:
+                    a0:86:48:2f:98:09:77:11:ce:89:42:b5:b1:fb:49:
+                    b9:72:42:56:8f:73:86:ac:b2:e3:83:bb:79:7d:d9:
+                    91:a5:44:98:9c:7a:84:3f:f7:93:6d:b6:76:11:e3:
+                    c9:d7:14:e4:e0:da:ee:e8:df:3b:bc:15:48:27:02:
+                    36:4d:46:c6:87:50:a6:1b:3c:13:88:4a:82:c6:81:
+                    a2:46:a5:55:50:1d:af:06:fc:cb:5a:bc:8e:09:9a:
+                    62:53:44:63:58:38:b7:38:89:b2:af:79:c9:51:85:
+                    db:f0:fe:ca:3f:49:7e:27:5e:e6:4b:49:fc:60:03:
+                    32:8f
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha1WithRSAEncryption
+        af:dd:ae:72:4f:70:e5:f0:44:48:6e:c2:52:f1:d3:67:f1:b3:
+        ea:44:8b:9f:78:ae:ed:cd:99:88:93:25:64:72:ac:ab:f4:4d:
+        f2:ec:f0:45:57:7a:fc:c8:92:44:f4:97:4e:13:ff:f3:86:3b:
+        a7:55:8a:f2:3b:05:9e:2e:a3:4b:1f:9a:03:3b:ef:a5:89:7b:
+        85:17:ec:a9:95:c9:13:43:79:2c:1f:c4:00:3d:22:03:54:36:
+        a3:27:8a:98:4b:0f:ce:d7:0a:5c:3c:b8:56:c0:26:ec:7b:2a:
+        8c:a1:9a:19:3e:d5:62:b8:70:d8:58:44:87:14:96:b1:f6:bf:
+        9c:54:ed:22:47:46:28:77:ad:88:3c:02:7d:2e:43:72:8b:a2:
+        6d:ec:ab:ec:97:c3:24:26:f6:72:a3:5b:20:44:fd:6d:0c:89:
+        a8:a4:51:a6:1a:f2:9e:88:e2:1e:df:84:8e:32:14:43:32:04:
+        96:4d:5a:57:f0:07:60:ae:da:d2:ff:47:32:8e:ad:85:d6:04:
+        5b:28:46:fb:31:e8:61:e0:81:cd:cf:b0:9e:64:9e:e9:02:67:
+        d6:a4:0c:60:e9:40:44:47:b5:61:10:0e:0b:92:4d:cc:40:0c:
+        ba:22:3c:88:33:12:70:e7:ac:aa:f9:d6:1c:ae:58:62:4e:7f:
+        44:3c:16:15
